@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.ár{
+    float: right;
+    font-size: 25px;
+}
+body{
+    background-color: antiquewhite;
+}
+.tartalom{
+    width: 310mm;
+    padding: 2cm;
+    margin: 0 auto;
+}
+main{
+    width: 310mm;
+    padding: 1cm;
+    margin: 0 auto;
+}
+.etel{
+    padding: 1cm;
+    margin: 0 auto;
+    width: 310mm;
+}
