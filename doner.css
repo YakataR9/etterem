@@ -1,0 +1,31 @@
+*{margin: 0;
+padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+.container{
+    height: 90vh;
+}
+body{
+    background-image: url('doner.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+
+}
+header{
+    background-color: red;
+    text-align: center;
+}
+footer{
+    background-color: grey;
+    height: 97px;
+}
+.bal{
+    float: left;
+}
+.jobb{
+    float: right;
+}
