@@ -21,11 +21,18 @@ header{
 }
 footer{
     background-color: grey;
-    height: 97px;
+    height: 191px;
 }
 .bal{
     float: left;
+    margin-left: 300px;
+    margin-top: 20px;
 }
 .jobb{
     float: right;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+h2 {
+    color: white;
 }
