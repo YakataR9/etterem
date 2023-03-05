@@ -2,28 +2,70 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 h1{
     text-align: center;
+    border-bottom: 1.5pt dotted black;
+    padding: 0.5cm;
 }
 .ár{
     float: right;
     font-size: 25px;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(236, 236, 236);
 }
 .tartalom{
-    width: 310mm;
-    padding: 2cm;
+    padding: 0.5cm;
     margin: 0 auto;
+    background-color: white;
 }
 main{
     width: 310mm;
-    padding: 1cm;
+    padding: 0;
     margin: 0 auto;
 }
-.etel{
-    padding: 1cm;
-    margin: 0 auto;
+div{
+    padding: 0.5cm;
+}
+.italok{
+    font-size: 30px;
+}
+.harmadiktartalom{
+    background-color: white;
     width: 310mm;
+    padding: 0.5cm;
+    margin: 0 auto;
+}
+.elsotartalom{
+    width: 310mm;
+    padding: 0.5cm;
+    margin: auto;
+    background-color: white;
+}
+.also{
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+.masodiktartalom{
+    background-color: white;
+    width: 310mm;
+    padding: 0.5cm;
+    margin: 0 auto;
+}
+.kepek{
+    background-color: white;
+    width: 310mm;
+    text-align: center;
+    padding: 0.5cm;
+    margin: 0 auto;
+}
+.kep{
+    width: 200px;
+}
+.korkep{
+    width: 240px;
+    border-radius: 50%;
 }
