@@ -6,22 +6,16 @@ h1{
     font-size: 80px;
 }
 .container{
-    height: 90vh;
+    height: 100vh;
 }
-body{
-    background-image: url('doner.png');
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position-x: center;
 
-}
 header{
     background-color: red;
     text-align: center;
 }
 footer{
     background-color: grey;
-    height: 191px;
+    height: 200px;
 }
 .bal{
     float: left;
@@ -35,4 +29,45 @@ footer{
 }
 h2 {
     color: white;
+}
+.rolunk{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: justify;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.etlap{
+    float: right;
+}
+.rolunk p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.kiemelt{
+    font-weight: bold;
+}
+.fejlec{
+    background-color: gray;
+    height: 10vh;
+ 
+}
+.fejlec img{
+    height: 8vh;
+    margin-left: 10%;   
+    
+}
+.fejlec a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
