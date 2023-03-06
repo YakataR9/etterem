@@ -14,52 +14,48 @@ h1{
     float: right;
     font-size: 25px;
 }
+.hatter{
+    background-image: url('hatter2.avif');
+    height: 290vh;
+    width: 310mm;
+    margin: 0 auto;
+}
 body{
-    background-color: rgb(236, 236, 236);
+    background-image: url('hatter.jpg');
+    background-size: 290vh;
+    background-color: rgb(83, 83, 83);
+    backdrop-filter: blur(8px);
 }
 .tartalom{
     padding: 0.5cm;
     margin: 0 auto;
-    background-color: white;
 }
-main{
-    width: 310mm;
-    padding: 0;
-    margin: 0 auto;
-}
-div{
+.étel{
     padding: 0.5cm;
 }
 .italok{
     font-size: 30px;
 }
 .harmadiktartalom{
-    background-color: white;
-    width: 310mm;
     padding: 0.5cm;
     margin: 0 auto;
 }
 .elsotartalom{
-    width: 310mm;
+    background-size: cover;
     padding: 0.5cm;
     margin: auto;
-    background-color: white;
 }
 .also{
     text-align: center;
     color: rgb(187, 187, 187);
 }
 .masodiktartalom{
-    background-color: white;
-    width: 310mm;
     padding: 0.5cm;
     margin: 0 auto;
 }
 .kepek{
-    background-color: white;
-    width: 310mm;
     text-align: center;
-    padding: 0.5cm;
+    padding: 0.2cm;
     margin: 0 auto;
 }
 .kep{
@@ -68,4 +64,9 @@ div{
 .korkep{
     width: 240px;
     border-radius: 50%;
+}
+.blur{
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
 }
