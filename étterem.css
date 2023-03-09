@@ -60,13 +60,24 @@ body{
 }
 .kep{
     width: 200px;
+    transition: .2s;
 }
 .korkep{
     width: 240px;
     border-radius: 50%;
+    transition: .2s;
 }
 .blur{
     backdrop-filter: blur(8px);
     height: 100%;
     width: 100%;
+}
+.kep:hover{
+    transform: scale(1.3);
+}
+.korkep:hover{
+    transform: scale(1.3);
+}
+a{
+    font-size: 25px;
 }
