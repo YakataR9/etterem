@@ -62,7 +62,7 @@ h2 {
 .fejlec img{
     height: 8vh;
     margin-left: 10%;   
-    
+    float: left;
 }
 .fejlec a{
     text-decoration: none;
@@ -70,4 +70,19 @@ h2 {
     font-family: "Roboto", Sans-serif;
     font-size: 18px;
     font-weight: 400;
+}
+#balra{
+    float: left;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#jobbra{
+    float: right;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+#jobbra2{
+    float: right;
+    margin-right: 300px;
+    margin-top: 30px;
 }
