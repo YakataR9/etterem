@@ -25,6 +25,7 @@ body{
     background-size: 290vh;
     background-color: rgb(83, 83, 83);
     backdrop-filter: blur(8px);
+    color: white;
 }
 .tartalom{
     padding: 0.5cm;
